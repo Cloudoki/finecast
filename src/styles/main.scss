@@ -1,0 +1,33 @@
+/**
+ *	Define (and override) Variables
+ */
+$main-color: #288db1;
+$secondary-color: #5C92B2;
+$dark-color: #4a4a4a;
+$light-color: #DFE8E9;
+$grey: #CAD8D9;
+$dark-grey: #58676d;
+$medium-grey: #A2B9BB;
+$light-grey: #EDEFED;
+$white: #ffffff;
+/**
+ *	Import vendor dependencies
+ */
+@import '../vendor/bootstrap/dist/css/bootstrap.min';
+@import '../vendor/backgrid/lib/backgrid.css';
+
+
+/**
+ *	Import font and icon dependencies
+ *	Import style files
+ */
+@import '_fonts';
+@import '_navigation';
+@import '_cover';
+@import '_style';
+@import '_panels';
+@import '_chosen';
+
+body {
+  overflow: auto !important;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="{{appname}} App">
+
+		<title>{{appname}}</title>
+
+		<!-- Vendor CSS -->
+		<link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css">
+
+		<link rel="icon" type="image/x-icon" href="/images/icon.png">
+
+	</head>
+
+	<body class="cover">
+
+		<div class="site-wrapper">
+			<div class="site-wrapper-inner">
+
+				<div class="cover-container">
+
+					<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+						<div class="container-fluid">
+							<div class="navbar-header">
+
+								<a class="navbar-brand" href="/">
+									<img src="/images/icon48.png" alt="{{appname}} icon" class="identity" />
+
+									<span class='nav-title'>
+										{{appname}} <strong>App</strong>
+									</span>
+								</a>
+							</div>
+
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a href="{{apiurl}}docs">API Documentation</a></li>
+									<li class='profile'>
+										<span class="ion-power"></span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+
+					<div class="inner cover-body">
+
+						<h1 class="cover-heading">{{appname}} App.</h1>
+						<p class="lead">Solid Financial Forecasting. <i>"How are we doing? Fine."</i></p>
+						<p class="lead"></p>
+
+						 <iframe class="login"></iframe>
+
+					</div>
+
+					<div class="mastfoot">
+						<div class="inner">
+							<p>Managed for <a href="{{publicurl}}">{{appname}} v.{{apiversion}}</a>, by <a href="https://twitter.com/TeamCloudoki">@TeamCloudoki</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Requirejs -->
+		<script data-main="js/login-main" src="vendor/requirejs/require.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+
+<div class="container-fluid">
+	<div class="row thumblist">
+		{{#models}}
+		<div class="col-xs-6 col-md-4 col-lg-2">
+			<a href="/models/{{id}}" title="{{name}} model's page">
+				<img src="{{image}}" class="thumb" title="{{name}}">
+				<h2><span>{{name}}</span></h2>
+			</a>
+		</div>
+		{{/models}}
+	</div>
+</div>
+
+{{{body}}}
